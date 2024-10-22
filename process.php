@@ -9,13 +9,13 @@ if (isset($_POST['user_input'])) {
     // Check for any <script> tag in the user input
     if (preg_match('/<script\b[^>]*>(.*?)<\/script>/is', $user_input)) {
         // Define the new flag
-        $flag = "flag{congrats_you_solved_it}";
+        $flag = "b0c4jmiKgtFn707bVYKC68XcK";
 
         // Encode the flag using Base64
-        $encoded_flag = base64_encode($flag);
+        
 
         // Display the encoded flag
-        echo "<p class='message'>Encoded Flag: " . $encoded_flag . "</p>";
+        echo "<p class='message'> Flag: " . $flag . "</p>";
     }
 }
 ?>
