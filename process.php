@@ -15,7 +15,7 @@ if (isset($_POST['user_input'])) {
         
 
         // Display the encoded flag
-        echo "<p class='message'> Flag: " . $flag . "</p>";
+        echo "<p class='message'> Secret Code: " . $flag . "</p>";
     }
 }
 ?>
