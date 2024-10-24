@@ -11,10 +11,8 @@ if (isset($_POST['user_input'])) {
         // Define the new flag
         $flag = "b0c4jmiKgtFn707bVYKC68XcK";
 
-        // Encode the flag using Base64
         
-
-        // Display the encoded flag
+        // Display the  flag
         echo "<p class='message'> Secret Code: " . $flag . "</p>";
     }
 }
